@@ -6,51 +6,134 @@
 
 .header {
     background-color: #222222;
-    color: rgb(44, 119, 44);
+    padding: 19px 0;
+}
+.header_psv {
+    display: flex;
+    justify-content: space-between;
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1160px;
     padding: 0 10px;
     width: 100%;
     margin: 0 auto;
 }
 
-.header_psv {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 90px;
-}
-.header_left{
-    display: flex;
-
-}
-.header_logo{
+.header-logo{
     margin-right: 41px;
 }
 
-.header_item{
-    margin-right: 23px;
+/*not означает применение стиля кроме в данном случае последнего элемента*/
+.header_item:not(:last-child) {
+    margin-right: 33px;
 }
 
 .content{
     height: 764px;
-    background-color: rgb(160, 159, 172);
-}
-.Img_l{
-    max-width: 1140px; 
-    margin: 0 auto;
-    padding: 0;
+    background: #F1E4E6;
 }
 
-.bloscks{
+.Img_l{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+
+    background: url(./img/Layer_57-removebg-preview\ 1.png) no-repeat -228px;
+    /*background-repeat: no-repeat;*/
+}
+
+.title{
+    max-width: 405px;
+    padding-left: 20px;
+    border-left: 12px solid #F16D7F;
+}
+
+.text_decor{
+    color: #F16D7F;
+}
+
+.category{
+    margin: 100px 0;
+}
+
+.category_flex{
     display: flex;
     flex-wrap: wrap;
-}
-.block{
-    border: 2px solid black;
-    width: 33px;
-    background-color: grey;
+    justify-content: space-between;
 }
 
+.content_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content_item:not(:last-child){
+    width: 360px;
+    height: 260px;
+    /*background: grey;*/
+}
+
+.content_item{
+    position: relative;
+    width: 100%;
+    margin: 30px 0 0 0;
+    height: 180px;
+/*    background: grey;*/
+}
+
+.internal_text{
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 150px;
+}
+
+.head-text{
+    margin-top: 96px;
+}
+.subtext{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.Fetured{
+    font-family: loto;
+}
+.text-shop{
+    margin-top: 9px;
+    font-family: loto;
+    color: #9F9F9F;
+}
+
+.main-contents{
+    margin-top: 48px;
+}
+
+.blocks{
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.block-item{
+    width: 360px;
+    height: 581px;
+    background: #F8F8F8;;
+}
+
+.align-button{
+    width: 211px;
+    height: 47px;
+    border: 2px solid red;
+}
+.text_browse{
+    text-align: center;
+    padding: 14.5px 0;
+    color: red;
+}
