@@ -137,3 +137,46 @@
     padding: 14.5px 0;
     color: red;
 }
+
+.SubName{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.SubDescription{
+    padding-top: 12px;
+    width: 314px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #5D5D5D;
+
+}
+
+.cost{
+    padding-top: 18px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #F16D7F;
+}
+
+.wrap{
+    padding-top: 23px;
+    padding-left: 18px;
+    padding-bottom: 20px;
+}
