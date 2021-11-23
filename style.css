@@ -77,6 +77,9 @@
 }
 
 .content_item{
+    background: url(./img/Group\ 39.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     position: relative;
     width: 100%;
     margin: 30px 0 0 0;
@@ -127,15 +130,19 @@
     background: #F8F8F8;;
 }
 
+.form-button{
+    text-align: center;
+}
 .align-button{
+
     width: 211px;
     height: 47px;
-    border: 2px solid red;
+    border: 2px solid #F16D7F;
 }
 .text_browse{
     text-align: center;
     padding: 14.5px 0;
-    color: red;
+    color: #F16D7F;
 }
 
 .SubName{
@@ -150,6 +157,14 @@
     color: #000000;
 
 }
+.center_block_filters {
+    align-items: center;
+    justify-content: space-around;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+  }
 
 .SubDescription{
     padding-top: 12px;
@@ -180,3 +195,121 @@
     padding-left: 18px;
     padding-bottom: 20px;
 }
+
+.info{
+    background-color: #222224;
+    padding: 100px 0;
+}
+
+.int-info{
+    display: flex;
+    /*justify-content: space-between;*/
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.blocks-info{
+    width: 360px;
+    gap: 30px;
+    text-align: center;
+}
+
+.subname-info{
+    padding-top: 28px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19.96px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FBFBFB;
+}
+
+.text-info{
+    padding-top: 16px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13.972px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #FBFBFB;
+}
+
+.contacts{
+    width: 100%;
+    height: 448px;
+    overflow: hidden;
+}
+
+.all-rights{
+    background-color: #222222;
+    padding: 24px 0;
+}
+.blocks-f{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.left{
+    padding: 6px 0;
+}
+.sub-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7.3px;
+}
+.copyrights{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FBFBFB;
+}
+
+/*Catalogs*/
+.subheader_catalog {
+    background-color: #f1e4e6;
+    margin-bottom: 51px;
+  }
+  
+  .sub-header_catalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    height: 148px;
+  }
+  .subheader_catalog_right {
+    color: #f16d7f;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .subheader_catalog_left {
+    justify-content: space-between;
+    display: flex;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+  }
+  .subheader_catalog_link {
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .subheader_catalog_link span {
+    color: #f16d7f;
+  }
+  
+  .center_block_filters {
+    align-items: center;
+    justify-content: space-around;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+  }
