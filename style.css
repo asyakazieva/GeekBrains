@@ -364,6 +364,12 @@ hr{
     gap: 30px;
 }
 /*shopping-cart*/  
+.cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 66px 0;
+}
 .cart__header{
     display: flex;
     justify-content: space-between;
